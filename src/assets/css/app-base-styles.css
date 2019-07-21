@@ -1,0 +1,105 @@
+.col.col-4 button.btn{
+    width: 100%;
+}
+
+.row.min-vh-57px{
+    min-height: 57px;
+}
+
+.spacer{
+    min-height: 20px;
+}
+
+.col.col-3 button.btn{
+    width: 100%;
+}
+.pz-item-inner{
+    display: inline-block;
+    line-height: 2em;
+}
+
+.pz-item-inner .badge{
+    display: inline-block;
+    line-height: 2.75em;
+    padding: 0 15px;
+}
+
+.pz-item-inner.pz-actions{
+    display: inline-block;
+    margin-top: 0.75em;
+}
+
+
+.pz-item-inner.pz-actions .btn{
+    margin-left: 10px;
+    font-size: 0.75em;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+li.list-group-item.todo-list-item.task-done .badge,
+li.list-group-item.todo-list-item.task-done .pz-task.pz-item-inner,
+li.list-group-item.todo-list-item.task-done .btn.btn-success,
+li.list-group-item.todo-list-item.task-done .btn.btn-primary {
+    text-decoration: line-through;
+    color: green;
+    opacity: 0.25;
+    cursor: not-allowed;
+}
+
+span.todo-info,
+span.todo-date {
+    color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+span.todo-info {
+    border-top: solid 1px rgba(35, 208, 56, 0.33);
+    border-bottom: solid 1px rgba(255, 200, 0, 0.33);
+    padding: 1px;
+    padding-bottom: 5px;
+    font-size: 1em;
+    letter-spacing: 0.025em;
+    font-weight: 200;
+    color: rebeccapurple;
+}
+span.todo-date {
+    font-size: 0.5em;
+    background: #ececec;
+    border: solid 1px #dadada;
+    border-radius: 3px;
+    line-height: normal;
+    opacity: 0.5;
+    padding: 5px;
+    margin-left: 0;
+    transition: all 0.35s;
+    cursor: help;
+}
+
+span.todo-date:hover{
+    opacity: 1;
+    font-size: 0.65em;
+}
+
+#todoText,
+#todoDate{
+    min-height: 80px;
+    text-align: center;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-group .mock-label{
+    display: block;
+    background: #e4e4e4;
+    padding: 5px 10px;
+    /*color: rgb(102, 51, 153); Rebeccapurple*/
+    color: rgb(152, 152, 152);
+    border: solid 1px #ced4da;
+}
+
+.todo-date .due-for{
+    color: rgb(102, 51, 153);
+}
